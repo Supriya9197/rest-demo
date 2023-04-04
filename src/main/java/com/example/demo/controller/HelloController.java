@@ -15,6 +15,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String greetings() throws ResourceNotFoundException {
 		return message;
+		
 	}
 	
 }
